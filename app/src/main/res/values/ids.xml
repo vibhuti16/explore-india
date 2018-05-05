@@ -181,12 +181,11 @@
 
     <item name="state_rv_places" type="id"/>
 
-
-
     <!-- single state places list layout -->
     <item name="state_place_list_img_place" type="id"/>
     <item name="state_place_list_tv_name" type="id"/>
     <item name="state_place_list_img_favourite" type="id"/>
+
 
 
     <!-- single state cities list layout -->
@@ -210,9 +209,6 @@
     <!-- End of single state layout -->
 
     <!-- state details layout -->
-
-
-
 
     <item name="popular_places_rv_names" type="id"/>
     <item name="city_rv_places" type="id"/>
@@ -245,13 +241,11 @@
 
     <!-- End of places details layout -->
 
-
-
     <!-- Custom Dialog -->
     <item name="dialog_message" type="id" />
     <item name="dialog_image" type="id" />
-
-
+  
+  
     <!-- Liked place Details -->
     <item name="liked_places_rv_images" type="id" />
     <item name="liked_places_list_images" type="id" />
