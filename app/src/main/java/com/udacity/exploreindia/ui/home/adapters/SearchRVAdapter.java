@@ -32,8 +32,8 @@ public class SearchRVAdapter extends RecyclerView.Adapter<SearchRVAdapter.ViewHo
     @Override
     public void onBindViewHolder(ViewHolder holder, int position) {
         searchModel = lPopularDestinations.get(position);
-        holder.iv_location.setImageResource(R.drawable.gateway_of_india_small);
-        holder.tv_locationName.setText(searchModel.getLoctionName());
+        holder.ivLocations.setImageResource(R.drawable.gateway_of_india_small);
+        holder.tvLocationName.setText(searchModel.getLoctionName());
     }
 
 
@@ -43,13 +43,13 @@ public class SearchRVAdapter extends RecyclerView.Adapter<SearchRVAdapter.ViewHo
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder {
-        private ImageView iv_location;
-        private TextView tv_locationName;
+        private ImageView ivLocations;
+        private TextView tvLocationName;
 
         public ViewHolder(View itemView) {
             super(itemView);
-            iv_location = itemView.findViewById(R.id.my_location_img_places);
-            tv_locationName = itemView.findViewById(R.id.loaction_tv_name);
+            ivLocations = itemView.findViewById(R.id.my_location_img_places);
+            tvLocationName = itemView.findViewById(R.id.loaction_tv_name);
         }
     }
 
